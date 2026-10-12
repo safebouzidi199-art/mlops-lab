@@ -1,3 +1,19 @@
 
 # Local MinIO configuration containing credentials
 minio.yaml
+
+# Environnement Python
+.venv/
+__pycache__/
+*.pyc
+
+# Données locales MLflow
+mlflow.db
+mlflow.db-shm
+mlflow.db-wal
+mlruns/
+
+# Fichiers générés par les tests
+resultat.txt
+artefact_minio.txt
+artefact_minio_verification.txt
