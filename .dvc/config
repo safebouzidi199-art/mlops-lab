@@ -1,0 +1,7 @@
+[core]
+    remote = minio
+['remote "minio"']
+    url = s3://mlops-test
+    endpointurl = http://127.0.0.1:9000
+    use_ssl = false
+    region = us-east-1
